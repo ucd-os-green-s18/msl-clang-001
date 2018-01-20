@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES main.c)
 
-add_executable(msl_clang_001 ${SOURCE_FILES})
+# The variable SOURCE_FILES does not automatically contain
+# all .c files needed,  so BSTree.c is added afterwards.
+add_executable(msl_clang_001 ${SOURCE_FILES} BSTree.c)

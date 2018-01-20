@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/msl_clang_001.dir/main.c.o"
+  "CMakeFiles/msl_clang_001.dir/BSTree.c.o"
   "msl_clang_001.pdb"
   "msl_clang_001"
 )

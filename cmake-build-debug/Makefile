@@ -123,6 +123,33 @@ msl_clang_001/fast:
 	$(MAKE) -f CMakeFiles/msl_clang_001.dir/build.make CMakeFiles/msl_clang_001.dir/build
 .PHONY : msl_clang_001/fast
 
+BSTree.o: BSTree.c.o
+
+.PHONY : BSTree.o
+
+# target to build an object file
+BSTree.c.o:
+	$(MAKE) -f CMakeFiles/msl_clang_001.dir/build.make CMakeFiles/msl_clang_001.dir/BSTree.c.o
+.PHONY : BSTree.c.o
+
+BSTree.i: BSTree.c.i
+
+.PHONY : BSTree.i
+
+# target to preprocess a source file
+BSTree.c.i:
+	$(MAKE) -f CMakeFiles/msl_clang_001.dir/build.make CMakeFiles/msl_clang_001.dir/BSTree.c.i
+.PHONY : BSTree.c.i
+
+BSTree.s: BSTree.c.s
+
+.PHONY : BSTree.s
+
+# target to generate assembly for a file
+BSTree.c.s:
+	$(MAKE) -f CMakeFiles/msl_clang_001.dir/build.make CMakeFiles/msl_clang_001.dir/BSTree.c.s
+.PHONY : BSTree.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... msl_clang_001"
+	@echo "... BSTree.o"
+	@echo "... BSTree.i"
+	@echo "... BSTree.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

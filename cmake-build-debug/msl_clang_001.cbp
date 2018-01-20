@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/Phoenixo/Documents/Projects/CLion/msl-clang-001/BSTree.c">
+			<Option target="msl_clang_001"/>
+		</Unit>
+		<Unit filename="/Users/Phoenixo/Documents/Projects/CLion/msl-clang-001/BSTree.h">
+			<Option target="msl_clang_001"/>
+		</Unit>
 		<Unit filename="/Users/Phoenixo/Documents/Projects/CLion/msl-clang-001/main.c">
 			<Option target="msl_clang_001"/>
 		</Unit>
