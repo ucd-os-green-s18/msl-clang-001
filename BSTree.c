@@ -43,7 +43,10 @@ void destroy(Node* node) {
  * is created at the appropriate position in the tree.
  */
 void insert(Node* node, char* _word) {
-    
+    if (node->word == NULL) {
+        node->word = _word;
+        
+    }
     /* Return a negative number if _word < node->word */
     if (strcmp(_word, node->word) < 0) {
         if (node->left != NULL) {
