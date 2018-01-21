@@ -10,13 +10,8 @@
  * dynamically allocated word, its integer count, and pointers to
  * the left and right subtrees.
  * */
-
-/*
- * How to dynamically allocate a string:
- * word = (char*) malloc(sizeof(char) * (length + 1));
- * */
 struct Tree {
-    char word[25];
+    char *word;
     int count;
     struct Tree *left;
     struct Tree *right;
