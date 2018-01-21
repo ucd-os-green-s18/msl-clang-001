@@ -23,7 +23,7 @@ Tree* Tree_New() {
 /*
  * Void destroy destroys the entire binary tree by
  * recursively traversing to the bottom of the tree and then
- * de-allocating memory for nodes as it traverses back to the root.
+ * deallocating memory for nodes as it traverses back to the root.
  * Once there are no more non NULL nodes, the
  * tree is completely destroyed.
  * The function takes one argument - a pointer to a Tree.
@@ -32,7 +32,7 @@ void destroy(Node* node) {
     if (node != NULL) {
         destroy(node->left);
         destroy(node->right);
-        free(node);           /* de-allocate the memory for the node */
+        free(node);           /* deallocate the memory for the node */
     }
 }
 
@@ -44,35 +44,29 @@ void destroy(Node* node) {
  */
 void insert(Node* node, char* _word) {
     
-    if (node->word == NULL) {
-        
-    }
-    
     /* Return a negative number if _word < node->word */
     if (strcmp(_word, node->word) < 0) {
         if (node->left != NULL) {
             insert(node->left, _word);
-        }
-        else {
+        } else {
             /* Allocate a new node(Tree) and initialize its data */
             Node* n = malloc(sizeof(Node));
             n->word = _word;
             node->left = n; /* Put the new node in its place */
         }
     }
-    /* Return a positive number if _word > node->word*/
+    /* Return a positive number if _word > node->word */
     else if (strcmp(_word, node->word) > 0) {
         if (node->right != NULL) {
             insert(node->right, _word);
-        }
-        else {
+        } else {
             /* Allocate a new node(Tree) and initialize its data */
-            Node* n = malloc(sizeof(Node));
+            Node *n = malloc(sizeof(Node));
             n->word = _word;
             node->right = n; /* Put the new node in its place */
         }
     }
-    /* Return 0 if _word == node-word */
+    /* Return 0 if _word == node->word */
     else {
         ++node->count;
     }
