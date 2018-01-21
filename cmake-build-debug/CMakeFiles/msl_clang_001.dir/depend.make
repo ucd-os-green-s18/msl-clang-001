@@ -3,7 +3,9 @@
 
 CMakeFiles/msl_clang_001.dir/BSTree.c.o: ../BSTree.c
 CMakeFiles/msl_clang_001.dir/BSTree.c.o: ../BSTree.h
+CMakeFiles/msl_clang_001.dir/BSTree.c.o: ../HelperFunctions.h
 
 CMakeFiles/msl_clang_001.dir/main.c.o: ../BSTree.h
+CMakeFiles/msl_clang_001.dir/main.c.o: ../HelperFunctions.h
 CMakeFiles/msl_clang_001.dir/main.c.o: ../main.c
 

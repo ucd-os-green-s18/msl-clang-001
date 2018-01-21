@@ -1,3 +1,9 @@
+/*
+ * Created by:
+ * Matthew Moltzau and Michael Hedrick
+ * Spring 2018
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/michaelhedrick/CLionProjects/msl-clang-001/BSTree.c
+/cygdrive/c/Users/ghedr/CLionProjects/msl-clang-001/BSTree.c
 stdio.h
 -
 stdlib.h
@@ -14,15 +14,19 @@ stdlib.h
 string.h
 -
 BSTree.h
-/Users/michaelhedrick/CLionProjects/msl-clang-001/BSTree.h
+/cygdrive/c/Users/ghedr/CLionProjects/msl-clang-001/BSTree.h
+HelperFunctions.h
+/cygdrive/c/Users/ghedr/CLionProjects/msl-clang-001/HelperFunctions.h
 
-/Users/michaelhedrick/CLionProjects/msl-clang-001/BSTree.h
+/cygdrive/c/Users/ghedr/CLionProjects/msl-clang-001/BSTree.h
 stdio.h
 -
 stdlib.h
 -
 
-/Users/michaelhedrick/CLionProjects/msl-clang-001/main.c
+/cygdrive/c/Users/ghedr/CLionProjects/msl-clang-001/HelperFunctions.h
+
+/cygdrive/c/Users/ghedr/CLionProjects/msl-clang-001/main.c
 stdio.h
 -
 stdlib.h
@@ -30,5 +34,7 @@ stdlib.h
 string.h
 -
 BSTree.h
-/Users/michaelhedrick/CLionProjects/msl-clang-001/BSTree.h
+/cygdrive/c/Users/ghedr/CLionProjects/msl-clang-001/BSTree.h
+HelperFunctions.h
+/cygdrive/c/Users/ghedr/CLionProjects/msl-clang-001/HelperFunctions.h
 

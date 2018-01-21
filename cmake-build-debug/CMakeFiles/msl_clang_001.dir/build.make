@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /cygdrive/c/Users/ghedr/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /cygdrive/c/Users/ghedr/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/michaelhedrick/CLionProjects/msl-clang-001
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/ghedr/CLionProjects/msl-clang-001
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/michaelhedrick/CLionProjects/msl-clang-001/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/ghedr/CLionProjects/msl-clang-001/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/msl_clang_001.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/msl_clang_001.dir/flags.make
 
 CMakeFiles/msl_clang_001.dir/main.c.o: CMakeFiles/msl_clang_001.dir/flags.make
 CMakeFiles/msl_clang_001.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michaelhedrick/CLionProjects/msl-clang-001/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/msl_clang_001.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/msl_clang_001.dir/main.c.o   -c /Users/michaelhedrick/CLionProjects/msl-clang-001/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ghedr/CLionProjects/msl-clang-001/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/msl_clang_001.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/msl_clang_001.dir/main.c.o   -c /cygdrive/c/Users/ghedr/CLionProjects/msl-clang-001/main.c
 
 CMakeFiles/msl_clang_001.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/msl_clang_001.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michaelhedrick/CLionProjects/msl-clang-001/main.c > CMakeFiles/msl_clang_001.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/ghedr/CLionProjects/msl-clang-001/main.c > CMakeFiles/msl_clang_001.dir/main.c.i
 
 CMakeFiles/msl_clang_001.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/msl_clang_001.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michaelhedrick/CLionProjects/msl-clang-001/main.c -o CMakeFiles/msl_clang_001.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/ghedr/CLionProjects/msl-clang-001/main.c -o CMakeFiles/msl_clang_001.dir/main.c.s
 
 CMakeFiles/msl_clang_001.dir/main.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/msl_clang_001.dir/main.c.o.provides.build: CMakeFiles/msl_clang_001.d
 
 CMakeFiles/msl_clang_001.dir/BSTree.c.o: CMakeFiles/msl_clang_001.dir/flags.make
 CMakeFiles/msl_clang_001.dir/BSTree.c.o: ../BSTree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michaelhedrick/CLionProjects/msl-clang-001/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/msl_clang_001.dir/BSTree.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/msl_clang_001.dir/BSTree.c.o   -c /Users/michaelhedrick/CLionProjects/msl-clang-001/BSTree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ghedr/CLionProjects/msl-clang-001/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/msl_clang_001.dir/BSTree.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/msl_clang_001.dir/BSTree.c.o   -c /cygdrive/c/Users/ghedr/CLionProjects/msl-clang-001/BSTree.c
 
 CMakeFiles/msl_clang_001.dir/BSTree.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/msl_clang_001.dir/BSTree.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michaelhedrick/CLionProjects/msl-clang-001/BSTree.c > CMakeFiles/msl_clang_001.dir/BSTree.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/ghedr/CLionProjects/msl-clang-001/BSTree.c > CMakeFiles/msl_clang_001.dir/BSTree.c.i
 
 CMakeFiles/msl_clang_001.dir/BSTree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/msl_clang_001.dir/BSTree.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michaelhedrick/CLionProjects/msl-clang-001/BSTree.c -o CMakeFiles/msl_clang_001.dir/BSTree.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/ghedr/CLionProjects/msl-clang-001/BSTree.c -o CMakeFiles/msl_clang_001.dir/BSTree.c.s
 
 CMakeFiles/msl_clang_001.dir/BSTree.c.o.requires:
 
@@ -113,15 +113,15 @@ msl_clang_001_OBJECTS = \
 # External object files for target msl_clang_001
 msl_clang_001_EXTERNAL_OBJECTS =
 
-msl_clang_001: CMakeFiles/msl_clang_001.dir/main.c.o
-msl_clang_001: CMakeFiles/msl_clang_001.dir/BSTree.c.o
-msl_clang_001: CMakeFiles/msl_clang_001.dir/build.make
-msl_clang_001: CMakeFiles/msl_clang_001.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/michaelhedrick/CLionProjects/msl-clang-001/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable msl_clang_001"
+msl_clang_001.exe: CMakeFiles/msl_clang_001.dir/main.c.o
+msl_clang_001.exe: CMakeFiles/msl_clang_001.dir/BSTree.c.o
+msl_clang_001.exe: CMakeFiles/msl_clang_001.dir/build.make
+msl_clang_001.exe: CMakeFiles/msl_clang_001.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/ghedr/CLionProjects/msl-clang-001/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable msl_clang_001.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/msl_clang_001.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/msl_clang_001.dir/build: msl_clang_001
+CMakeFiles/msl_clang_001.dir/build: msl_clang_001.exe
 
 .PHONY : CMakeFiles/msl_clang_001.dir/build
 
@@ -135,6 +135,6 @@ CMakeFiles/msl_clang_001.dir/clean:
 .PHONY : CMakeFiles/msl_clang_001.dir/clean
 
 CMakeFiles/msl_clang_001.dir/depend:
-	cd /Users/michaelhedrick/CLionProjects/msl-clang-001/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/michaelhedrick/CLionProjects/msl-clang-001 /Users/michaelhedrick/CLionProjects/msl-clang-001 /Users/michaelhedrick/CLionProjects/msl-clang-001/cmake-build-debug /Users/michaelhedrick/CLionProjects/msl-clang-001/cmake-build-debug /Users/michaelhedrick/CLionProjects/msl-clang-001/cmake-build-debug/CMakeFiles/msl_clang_001.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/c/Users/ghedr/CLionProjects/msl-clang-001/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/ghedr/CLionProjects/msl-clang-001 /cygdrive/c/Users/ghedr/CLionProjects/msl-clang-001 /cygdrive/c/Users/ghedr/CLionProjects/msl-clang-001/cmake-build-debug /cygdrive/c/Users/ghedr/CLionProjects/msl-clang-001/cmake-build-debug /cygdrive/c/Users/ghedr/CLionProjects/msl-clang-001/cmake-build-debug/CMakeFiles/msl_clang_001.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/msl_clang_001.dir/depend
 

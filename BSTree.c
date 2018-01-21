@@ -1,3 +1,9 @@
+/*
+ * Created by:
+ * Matthew Moltzau and Michael Hedrick
+ * Spring 2018
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -47,7 +53,7 @@ void destroy(Node* node) {
 /*
  * --------------------------------------------------------------------
  * | Insert
- * --------------------------------------------------------------------
+ * --------------------------------- -----------------------------------
  * This method inserts a word into the tree. If the word already exists,
  * the count of its node increases. Otherwise, a new node is created.
  *
