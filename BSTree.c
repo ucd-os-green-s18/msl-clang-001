@@ -44,7 +44,7 @@ void destroy(Node* node) {
  */
 void insert(Node* node, char* _word) {
     if (node->word == NULL) {
-        copyStrings(node->word, _word);
+        strcmp(node->word, _word);
         ++node->count;
     }
     /* Return a negative number if _word < node->word */
@@ -54,7 +54,7 @@ void insert(Node* node, char* _word) {
         } else {
             /* Allocate a new node(Tree) and initialize its data */
             Node* n = malloc(sizeof(Node));
-            copyStrings(n->word, _word);
+            strcmp(n->word, _word);
             ++n->count;
             node->left = n; /* Put the new node in its place */
         }
@@ -66,7 +66,7 @@ void insert(Node* node, char* _word) {
         } else {
             /* Allocate a new node(Tree) and initialize its data */
             Node *n = malloc(sizeof(Node));
-            copyStrings(n->word, _word);
+            strcmp(n->word, _word);
             ++n->count;
             node->right = n; /* Put the new node in its place */
         }
@@ -82,33 +82,4 @@ void writeInorder(Node *node, FILE *out) {
     writeInorder(node->left, out);
     fprintf(out, "%s: %d\n", node->word, node->count);
     writeInorder(node->right, out);
-}
-
-/*
- * copyStrings() copies the second argument into the first argument.
- * It works exactly like the string library strcpy() function.
- * Parameters: two c-strings
- * Return Values: None
- */
-void copyStrings(char* destination, char* source) {
-    while (*source) {
-        *destination = *source;
-        ++source;
-        ++destination;
-    }
-    *destination = '\0'; /* null terminate the string */
-}
-
-
-/*
- * int compareStrings compares two strings for equality and for "magnitude".
- * It works exactly like the string library strcmp() function.
- * Parameters: two c-strings to compare
- * Return value: an integer, positive if left > right
- * negative if left < right
- * 0 if equal.
- */
-int compareStrings(char* left, char* right) {
-
-    return 0;
 }
