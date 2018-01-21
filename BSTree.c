@@ -68,9 +68,12 @@ void insert(Node* node, char* word) {
     }
     
     /*
-     * case 1: word < node->word      the key belongs to the left of the current node
-     * case 2: word > node->word      the key belongs to the right of the current node
-     * case 3: word == node-> word    the key is equal to the key of the current node
+     * case 1: word < node->word
+     *		the key belongs to the left of the current node
+     * case 2: word > node->word
+     *		the key belongs to the right of the current node
+     * case 3: word == node-> word
+     *		the key is equal to the key of the current node
      * */
     if (strcmp(word, node->word) < 0) {
         /*
