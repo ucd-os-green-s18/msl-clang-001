@@ -6,29 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/Users/Phoenixo/Documents/Projects/CLion/msl-clang-001/BSTree.c
+/Users/michaelhedrick/CLionProjects/msl-clang-001/BSTree.c
 stdio.h
 -
 stdlib.h
--
-BSTree.h
-/Users/Phoenixo/Documents/Projects/CLion/msl-clang-001/BSTree.h
-
-/Users/Phoenixo/Documents/Projects/CLion/msl-clang-001/BSTree.h
-stdio.h
--
-stdlib.h
--
-
-/Users/Phoenixo/Documents/Projects/CLion/msl-clang-001/main.c
-stdio.h
--
-stdlib.h
--
-printf.h
 -
 string.h
 -
 BSTree.h
-/Users/Phoenixo/Documents/Projects/CLion/msl-clang-001/BSTree.h
+/Users/michaelhedrick/CLionProjects/msl-clang-001/BSTree.h
+
+/Users/michaelhedrick/CLionProjects/msl-clang-001/BSTree.h
+stdio.h
+-
+stdlib.h
+-
+
+/Users/michaelhedrick/CLionProjects/msl-clang-001/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+BSTree.h
+/Users/michaelhedrick/CLionProjects/msl-clang-001/BSTree.h
 

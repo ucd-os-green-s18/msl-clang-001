@@ -16,7 +16,7 @@
  * word = (char*) malloc(sizeof(char) * (length + 1));
  * */
 struct Tree {
-    char *word;
+    char word[255];
     int count;
     struct Tree *left;
     struct Tree *right;

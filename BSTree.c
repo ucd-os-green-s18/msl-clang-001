@@ -5,7 +5,7 @@
 
 Tree* Tree_New() {
     Tree* t = malloc(sizeof(Tree));
-    t->word = NULL;
+
     t->count = 0;
     t->left = NULL;
     t->right = NULL;
@@ -44,8 +44,8 @@ void destroy(Node* node) {
  */
 void insert(Node* node, char* _word) {
     if (node->word == NULL) {
-        node->word = _word;
-        
+        strcpy(node->word, _word);
+        ++node->count;
     }
     /* Return a negative number if _word < node->word */
     if (strcmp(_word, node->word) < 0) {
@@ -54,7 +54,7 @@ void insert(Node* node, char* _word) {
         } else {
             /* Allocate a new node(Tree) and initialize its data */
             Node* n = malloc(sizeof(Node));
-            n->word = _word;
+            strcpy(node->word, _word);
             node->left = n; /* Put the new node in its place */
         }
     }
@@ -65,7 +65,7 @@ void insert(Node* node, char* _word) {
         } else {
             /* Allocate a new node(Tree) and initialize its data */
             Node *n = malloc(sizeof(Node));
-            n->word = _word;
+            strcpy(node->word, _word);
             node->right = n; /* Put the new node in its place */
         }
     }
