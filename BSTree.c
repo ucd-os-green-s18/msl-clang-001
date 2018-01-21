@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "BSTree.h"
 
 Tree* Tree_New() {
@@ -42,8 +43,13 @@ void destroy(Node* node) {
  * is created at the appropriate position in the tree.
  */
 void insert(Node* node, char* _word) {
+    
+    if (node->word == NULL) {
+        
+    }
+    
     /* Return a negative number if _word < node->word */
-    if (strcmp(*_word, node->word) < 0) {
+    if (strcmp(_word, node->word) < 0) {
         if (node->left != NULL) {
             insert(node->left, _word);
         }
@@ -55,7 +61,7 @@ void insert(Node* node, char* _word) {
         }
     }
     /* Return a positive number if _word > node->word*/
-    else if (strcmp(*_word, node->word) > 0) {
+    else if (strcmp(_word, node->word) > 0) {
         if (node->right != NULL) {
             insert(node->right, _word);
         }
@@ -67,8 +73,8 @@ void insert(Node* node, char* _word) {
         }
     }
     /* Return 0 if _word == node-word */
-    else if (strcmp(_word, node->word == 0)) {
-        ++ node->count;
+    else {
+        ++node->count;
     }
 
 }

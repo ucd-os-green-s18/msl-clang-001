@@ -26,15 +26,24 @@ int main(int argc, char **argv) {
         exit(1);
     }
     
+    puts("opened the file");
+    
     Tree *tree = Tree_New();
     while (fscanf(in, "%s", buff) != EOF) {
-        insert(tree, *buff); /* buff is a c string, we will pass a pointer */
+        
+        puts("before insert");
+        insert(tree, buff); /* buff is a c string, we will pass a pointer */
+        puts("after insert");
         /* puts(buff); debug print */
     }
+    
+    puts("finished inserting");
     
     /* Inserting into a tree automatically sorts, so now we can print. */
     FILE *out = fopen("./program_output.txt", "w");
     writeInorder(tree, out);
+    
+    puts("done writing");
     
     /* Cleanup */
     fclose(in);
