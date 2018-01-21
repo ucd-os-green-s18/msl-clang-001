@@ -6,6 +6,7 @@
 /* arbitrarily large value */
 #define MAX_WORD 255
 
+
 int main(int argc, char **argv) {
     
     if (argc != 2) {

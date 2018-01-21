@@ -29,7 +29,13 @@ typedef struct Tree Node; /* a tree is a node */
 Tree* Tree_New();          /* constructor */
 void destroy(Tree*);       /* to free memory */
 void insert(Tree*, char*);
-/* void removeKey(Tree*, char*); */
 void writeInorder(Tree*, FILE*);
 
+/*
+ * Prototypes for string manipulation functions undeserving
+ * of their own header and c files.  These are very basic and only
+ * used to avoid using the string library.
+ */
+void copyStrings(char* destination, char* source);
+int compareStrings(char* leftString, char* rightString);
 #endif
