@@ -28,7 +28,7 @@ int main(int argc, char **argv) {
     
     Tree *tree = Tree_New();
     while (fscanf(in, "%s", buff) != EOF) {
-        insert(tree, buff); /* buff is a word */
+        insert(tree, *buff); /* buff is a c string, we will pass a pointer */
         /* puts(buff); debug print */
     }
     
