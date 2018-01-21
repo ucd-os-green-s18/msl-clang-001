@@ -44,7 +44,7 @@ void destroy(Node* node) {
  */
 void insert(Node* node, char* _word) {
     if (node->word == NULL) {
-        strcmp(node->word, _word);
+        strcpy(node->word, _word);
         ++node->count;
     }
     /* Return a negative number if _word < node->word */
@@ -54,7 +54,7 @@ void insert(Node* node, char* _word) {
         } else {
             /* Allocate a new node(Tree) and initialize its data */
             Node* n = malloc(sizeof(Node));
-            strcmp(n->word, _word);
+            strcpy(n->word, _word);
             ++n->count;
             node->left = n; /* Put the new node in its place */
         }
@@ -66,7 +66,7 @@ void insert(Node* node, char* _word) {
         } else {
             /* Allocate a new node(Tree) and initialize its data */
             Node *n = malloc(sizeof(Node));
-            strcmp(n->word, _word);
+            strcpy(n->word, _word);
             ++n->count;
             node->right = n; /* Put the new node in its place */
         }
