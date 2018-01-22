@@ -1,19 +1,14 @@
 # C Programming Assignment 1
-
+# Michael Hedrick and Matthew Moltazu
 _data structures and pointers in the C language_
 
 * * * 
 
-## Goals
+## Final Program Description
 
-1. Learn to work with [Git](https://git-scm.com/) and [Github](https://github.com).
-2. Practice development in the C programming language.
-3. Practice explicit memory allocation and deallocation.
-4. Practice working with _pointers_, raw references to memory locations, usually dynamically allocated.
-5. Practice creating and manipulating data structures (arrays and `struct`s).
-6. Practice writing algorithms for these data structures.
-7. Prepare for [C2](https://github.com/ivogeorg/msl-clang-002).
-8. Develop good coding style.
+This program implements a Binary Search Tree in C language.  This was completed as a warmup exercise to familiarize ourselves with data structures and memory management in C.  The program uses a struct called Tree, holding a left and right Tree pointer as well as a data field.  The data in this case is words read in from a file.  These words are read into dynamically allocated c-strings and counted.  If a word that is already in the tree is encountered, that node's count is incremented and no new node is placed in the tree.  We also implemented our own destructor function, since these are not native to C.  This function traverses to the bottom of the tree until encountering a NULL node, and then it moves up the tree recursively freeing nodes until the root is NULL.
+
+All of the algorithms used in our program are standard recursive tree algorithms that we learned in data structures and algorithms class.
 
 ## Synopsis
 
